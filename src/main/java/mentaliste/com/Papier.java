@@ -19,4 +19,9 @@ public class Papier {
     public void setSomme(int somme2) {
         somme = somme + somme2;
     }
+
+    public String toString() {
+        String res = "âges : " + age + "sommes d'argent " + somme;
+        return res;
+    }
 }
